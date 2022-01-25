@@ -16,6 +16,9 @@ sudo apt install pantheon-tweaks -y
 echo "INSTALANDO O LIBRE OFFICE"
 sudo apt install libreoffice -y
 
+echo "INSTALANDO CURL"
+sudo apt install curl -y
+
 echo "INSTALANDO O SPOTIFY"
 curl -sS https://download.spotify.com/debian/pubkey_5E3C45D7B312C643.gpg | sudo apt-key add -
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
